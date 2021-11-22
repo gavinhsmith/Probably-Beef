@@ -1,0 +1,29 @@
+{
+  "name": "probably-beef",
+  "version": "0.1.0",
+  "description": "Studying Tool (Originally for Beef Cuts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinhsmith/Probably-Beef.git"
+  },
+  "keywords": [],
+  "author": "gavinhsmith (https://gavinhsmith.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinhsmith/Probably-Beef/issues"
+  },
+  "homepage": "https://github.com/gavinhsmith/Probably-Beef#readme",
+  "dependencies": {
+    "@gavinhsmith/configify": "^1.0.1-2",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  }
+}
