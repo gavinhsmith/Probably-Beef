@@ -1,5 +1,6 @@
 const server = require("./server");
+const conf = require("./config/web");
 
-server.listen(server.config.port, _ => {
-    console.info(`Started Server on *:${server.config.port}!`);
+server.listen(conf.port, _ => {
+    console.info(`Started Server on *:${conf.port}!`);
 });

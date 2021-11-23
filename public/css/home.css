@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    height: 50vh;
+}
+.header > * {
+    margin: auto;
+}
+.options {
+    text-align: center;
+    height: 50vh;
+}
+button {
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    font-weight: bold;
+    width: 49vw;
+    height: 100%;
+}

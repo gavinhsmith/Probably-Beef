@@ -8,4 +8,10 @@ router.get('/', (req, res) => {
     });
 });
 
+router.get('/quiz', (req, res) => {
+    res.render('quiz', {
+        title: "Quiz"
+    });
+});
+
 module.exports = router;

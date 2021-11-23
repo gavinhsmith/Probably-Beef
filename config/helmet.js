@@ -1,2 +1,8 @@
 const helmet = require("helmet");
-module.exports = helmet();
+module.exports = helmet({
+    contentSecurityPolicy: {
+        "directives": {
+            defaultSrc: ["'self'", "'unsafe-inline'"]
+        }
+    }
+});

@@ -19,7 +19,7 @@ app.set('view engine', '.hbs');
 app.set("views", "./views");
 
 // Enable Helmet
-app.use(helmetconf);
+//app.use(helmetconf);
 
 // Enable the "/public" directory.
 app.use(express.static(path.join(__dirname, "/public")));

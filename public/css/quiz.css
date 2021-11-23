@@ -1,0 +1,20 @@
+.answers {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    width: 99vw;
+}
+
+.false-answer {
+    background-color: red;
+    color: white;
+}
+
+.qimg {
+    text-align: center;
+    width: 100%;
+    max-width: 5.5in;
+    height: auto;
+}
