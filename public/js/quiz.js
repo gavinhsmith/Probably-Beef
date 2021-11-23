@@ -8,6 +8,20 @@ Array.prototype.shuffle = function () {
 const qimg = document.querySelectorAll(".qimg")[0];
 const answers = document.querySelectorAll(".answers")[0];
 
+function generatePossibleAnswerList() {
+    let fin = {};
+    
+    for (let i = 0; i < question_answers[0].length; i++) {
+        for (let j = 0; j < question_answers[1].length; j++) {
+            for (let k = 0; k < question_answers[2].length; k++) {
+                fin[`${i}${j}${k}`] = `${question_answers[0][i]}, ${question_answers[1][j]} (Cooking Method: ${question_answers[2][k]})`;
+            }
+        }
+    }
+
+    return fin;
+}
+
 function generateNewQuestion() {
     createQuestion({
         img: "/img/eye_steak_boneless.jpg",
