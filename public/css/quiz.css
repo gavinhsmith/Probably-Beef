@@ -5,6 +5,8 @@
 
 button {
     width: 99vw;
+    padding: 8px 0px;
+    margin-bottom: 2px; 
 }
 
 .false-answer {

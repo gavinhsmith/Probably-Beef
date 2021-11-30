@@ -74,3 +74,8 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# Scripts
+*.sh
+*.bat
+*.cmd
