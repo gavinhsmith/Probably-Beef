@@ -60,7 +60,7 @@ const questions = [
         correct: [5,14,2]
     },
     { // 15
-        img: "/img/porterhouse_steak.jpg",
+        img: "/img/poterhouse_steak.jpg",
         correct: [4,15,0]
     },
     { // 16
@@ -72,15 +72,15 @@ const questions = [
         correct: [4,17,0]
     },
     { // 18
-        img: "/img/tenderloin_steak.jpg",
+        img: "/img/tenderloin_steak.png",
         correct: [4,18,0]
     },
     { // 19
-        img: "/img/top_loin_steak_boneless.jpg",
+        img: "/img/top_loin_steak_boneless.png",
         correct: [4,19,0]
     },
     { // 20
-        img: "/img/top_loin_steak.jpg",
+        img: "/img/top_loin_steak.png",
         correct: [4,20,0]
     },
     { // 21

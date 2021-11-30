@@ -10,7 +10,13 @@ router.get('/', (req, res) => {
 
 router.get('/quiz', (req, res) => {
     res.render('quiz', {
-        title: "Quiz"
+        title: "Infinite Quiz"
+    });
+});
+
+router.get('/test', (req, res) => {
+    res.render('test', {
+        title: "Test"
     });
 });
 

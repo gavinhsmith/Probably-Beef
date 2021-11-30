@@ -18,3 +18,32 @@ button {
     max-width: 5.5in;
     height: auto;
 }
+
+.corner {
+    position: fixed;
+    top: 0;
+    margin-right: 4px;
+    right: 0;
+    background: #f0f0f0;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.corner > .span-text {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.percent {
+    color: blue;
+    font-weight: bold;
+}
